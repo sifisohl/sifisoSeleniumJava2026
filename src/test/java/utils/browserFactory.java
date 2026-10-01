@@ -21,7 +21,7 @@ public class browserFactory {
             driver = new EdgeDriver();
         }
 
-        driver.get(url);
+        driver.get("https://ndosisimplifiedautomation.vercel.app") ;
         driver.manage().window().maximize();
 
         return driver;
