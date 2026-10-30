@@ -13,7 +13,7 @@ public class HomePage {
 
     WebDriver driver;
 
-    By verifyHomePageContent_xpath = By.xpath("//*[@id=\"app-root\"]/nav/div[1]/div[2]/button[1]/span[2]");
+    By verifyHomePageContent_xpath = By.xpath("//*[@id=\"app-root\"]/nav/div[1]/div[2]/button[1]");
     By mainLoginButton_xpath = By.xpath("//*[@id=\"app-root\"]/nav/div[1]/div[3]/button");
 
     public HomePage(WebDriver driver){

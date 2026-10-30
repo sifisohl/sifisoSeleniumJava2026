@@ -18,8 +18,8 @@ public class LoginTest {
         driver.findElement(By.id("login-email")).sendKeys("SifisoH@gmail.com");
         driver.findElement(By.id("login-password")).sendKeys("@12345678");
         driver.findElement(By.id("login-submit")).click();
-        Thread.sleep(2000);
         driver.findElement(By.className("welcome-word")).isDisplayed();
+        Thread.sleep(2000);
         driver.quit();
 
 
